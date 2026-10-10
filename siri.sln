@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "siri", "siri\siri.csproj", "{9810BF76-37BC-4B70-95EC-D2B86A7C8D7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9810BF76-37BC-4B70-95EC-D2B86A7C8D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9810BF76-37BC-4B70-95EC-D2B86A7C8D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9810BF76-37BC-4B70-95EC-D2B86A7C8D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9810BF76-37BC-4B70-95EC-D2B86A7C8D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

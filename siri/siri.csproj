@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="NAudio" Version="2.2.1" />
+        <None Remove="Resources\address_me.png" />
+        <EmbeddedResource Include="Resources\address_me.png" />
+        <None Remove="Resources\d-1-grape-you.wav" />
+        <EmbeddedResource Include="Resources\d-1-grape-you.wav" />
+        <None Remove="Resources\d-2-take-shit.wav" />
+        <EmbeddedResource Include="Resources\d-2-take-shit.wav" />
+        <None Remove="Resources\d-3-7pm-bedtime.wav" />
+        <EmbeddedResource Include="Resources\d-3-7pm-bedtime.wav" />
+        <None Remove="Resources\d-4-fried-rice.wav" />
+        <EmbeddedResource Include="Resources\d-4-fried-rice.wav" />
+        <None Remove="Resources\d-5-car-disrespect.wav" />
+        <EmbeddedResource Include="Resources\d-5-car-disrespect.wav" />
+        <None Remove="Resources\incoming_call.png" />
+        <EmbeddedResource Include="Resources\incoming_call.png" />
+        <None Remove="Resources\k-1-kirr-you.wav" />
+        <EmbeddedResource Include="Resources\k-1-kirr-you.wav" />
+        <None Remove="Resources\k-2-dishonour.wav" />
+        <EmbeddedResource Include="Resources\k-2-dishonour.wav" />
+        <None Remove="Resources\k-3-remons-butt.wav" />
+        <EmbeddedResource Include="Resources\k-3-remons-butt.wav" />
+        <None Remove="Resources\k-4-grape-you.wav" />
+        <EmbeddedResource Include="Resources\k-4-grape-you.wav" />
+        <None Remove="Resources\lemon.png" />
+        <EmbeddedResource Include="Resources\lemon.png" />
+        <None Remove="Resources\lime.png" />
+        <EmbeddedResource Include="Resources\lime.png" />
+        <None Remove="Resources\loud_alarm.wav" />
+        <EmbeddedResource Include="Resources\loud_alarm.wav" />
+        <None Remove="Resources\loud_android_notification.wav" />
+        <EmbeddedResource Include="Resources\loud_android_notification.wav" />
+        <None Remove="Resources\smoke_alarm_chirp.wav" />
+        <EmbeddedResource Include="Resources\smoke_alarm_chirp.wav" />
+        <None Remove="Resources\vine_boom.wav" />
+        <EmbeddedResource Include="Resources\vine_boom.wav" />
+        <None Remove="Resources\your_phone_linging.wav" />
+        <EmbeddedResource Include="Resources\your_phone_linging.wav" />
+        <None Remove="Resources\golden_freddy.png" />
+        <EmbeddedResource Include="Resources\golden_freddy.png" />
+        <None Remove="Resources\golden_freddy_scream.wav" />
+        <EmbeddedResource Include="Resources\golden_freddy_scream.wav" />
+        <None Remove="Resources\app.ico" />
+        <EmbeddedResource Include="Resources\app.ico" />
+    </ItemGroup>
+
+</Project>
